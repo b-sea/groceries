@@ -1,6 +1,6 @@
 from PySide2 import QtWidgets, QtCore
 
-from . import models
+from . import models, constants
 
 __all__ = [
     'GroceryTallies',
@@ -21,7 +21,7 @@ class GroceryTallies(QtWidgets.QDialog):
 
         self._grocery_view = QtWidgets.QTableView(self)
         self._grocery_view.setModel(QtCore.QSortFilterProxyModel(self))
-        self._grocery_view.model().setSourceModel(models.GroceryTableModel([], self))
+        self._grocery_view.model().setSourceModel(models.GroceryTableModel(test_data, self))
 
         self._grocery_view.setItemDelegateForColumn(2, delegate)
         self._grocery_view.setSelectionBehavior(QtWidgets.QAbstractItemView.SelectRows)

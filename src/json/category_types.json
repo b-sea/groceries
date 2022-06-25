@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Default"
+  },
+  {
+    "id": 2,
+    "name": "Produce"
+  },
+  {
+    "id": 3,
+    "name": "Dairy"
+  },
+  {
+    "id": 4,
+    "name": "Dry Goods"
+  },
+  {
+    "id": 5,
+    "name": "Canned Goods"
+  }
+]

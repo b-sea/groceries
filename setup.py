@@ -9,6 +9,7 @@ setup(
     install_requires=[
         'pyside2',
         'pint',
+        'sqlalchemy',
     ],
     entry_points='''
     [console_scripts]
