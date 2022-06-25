@@ -1,0 +1,7 @@
+-r docs.txt
+-r test.txt
+
+python-dotenv
+
+tox
+build
